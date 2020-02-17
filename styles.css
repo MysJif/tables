@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 255, 0, .1)
+}
+
+.container {
+    width: 75%;
+    margin: 25px auto;
+    border: 2px solid forestgreen;
+    overflow: auto;
+    padding: 15px;
+}
+
+nav {
+    text-align: center;
+}
+
+h1 {
+    color: forestgreen;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: forestgreen;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: ivory;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: ivory;
+    background-color: green;
+}

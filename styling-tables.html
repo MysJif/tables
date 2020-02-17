@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        tr:hover {
+            background: green;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        td {
+            text-align: center;
+            min-height: 25px;
+        }
+        th {
+            background-color: forestgreen;
+            color: ivory;
+        }
+        table {
+            width: 95%;
+            margin: 20px auto;
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <title>Tables</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">Table Basics</a>
+            <a href="styling-tables.html">Styling Tables</a>
+            <a href="calendar.html">Creating a Calendar</a>
+        </nav>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <th>8:00</th>
+                <td></td>
+                <td>Wakeup</td>
+                <td></td>
+                <td>Wakeup</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>9:00</th>
+                <td></td>
+                <td>Leave for Class</td>
+                <td></td>
+                <td>Leave for Class</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>10:00</th>
+                <td>Wakeup</td>
+                <td rowspan=2>WEB-105</td>
+                <td>Wakeup</td>
+                <td rowspan=2>WEB-105</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>11:00</th>
+                <td>Leave for Class</td>
+                <td>Leave for Class</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>12:00</th>
+                <td rowspan=2>MAD-155</td>
+                <td>Break</td>
+                <td rowspan=2>MAD-155</td>
+                <td>Break</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>1:00</th>
+                <td rowspan=3>HRT-103</td>
+                <td rowspan=3>HRT-103</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>2:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>3:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>4:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>5:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>6:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
