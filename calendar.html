@@ -10,10 +10,10 @@
             box-sizing: border-box;
         }
         table {
-            width: 90%;
+            width: 60%;
             margin: 20px auto;
             border-collapse: collapse;
-            border: 3px solid black;
+            border: 3px solid black; 
         }
         th {
             text-align: center;
@@ -24,7 +24,7 @@
             color: ivory;
         }
         td {
-            height: 40px;
+            height: 0;
             text-align: right;
             vertical-align: top;
             width: 14%;
@@ -34,6 +34,9 @@
         }
         .weekend {
             background: rgba(0, 255, 0, .4)
+        }
+        .birthday {
+            background: rgba(255, 0, 0, .4)
         }
     </style>
     <title>Tables</title>
@@ -85,7 +88,7 @@
             <tr>
                 <td class="weekend">18</td>
                 <td>19</td>
-                <td>20</td>
+                <td class="birthday" title="Birthday">20</td>
                 <td>21</td>
                 <td>22</td>
                 <td>23</td>
